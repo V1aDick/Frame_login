@@ -1,0 +1,22 @@
+.body {
+    background-color: #F6F9FF;
+
+}
+
+.header {
+    background-color: #F0F4FF;
+    height: 44px;
+
+    
+}
+
+nav {
+    width: 0;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+}
