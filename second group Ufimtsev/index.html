@@ -6,38 +6,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
     <title>To-do_Login</title>
 </head>
 <body>
     <header class="header">
         <nav class="header-nav">
+            <ul class="header-nav-ul"> 
+                <li class="nav-item"><a class="header-item-link" href="#"><img class="item-img" src="img/burger.svg" alt="burger" width="24px" height="24px"></a></li>
+                <li class="nav-item"><a class="header-item-link" href="#"><img class="item-img" src="img/home.svg" alt="home" width="24" height="24"></a></li>
+                <li class="nav-item" style="width: 226px;"> <div class="text-field_icon icon_search"><input id="search" type="search" value="Поиск"></div> </li>
+            </ul>
+        </nav>
+        <nav class="header-nav-2">
             <ul class="header-nav-ul">
-                <li class="nav-item"><a href="#"><img src="img/burger.svg" alt="burger" width="19.2px" height="21.6px"></a></li>
-                <li class="nav-item"><a href="#"><img src="img/home.svg" alt="burger" width="24" height="16"></a></li>
-                <li class="nav-item"><input type="search" value="Поиск"></li>
-                <li class="nav-item"><a href="#"><img src="img/plus.svg" alt="plus" width="20" height="20"></a></li>
-                <li class="nav-item"><a href="#"><img src="img/kolokol.svg" alt="notification" width="19.2" height="24"></a></li>
-                <li class="nav-item"><a href="#"><img src="img/profile.svg" alt="profile" width="24" height="24"></a></li>
+                <li class="nav-item"><a class="header-item-link" href="#"><img class="item-img" src="img/plus.svg" alt="plus" width="24" height="24"></a></li>
+                <li class="nav-item"><a class="header-item-link" href="#"><img class="item-img" src="img/kolokol.svg" alt="notification" width="24" height="24"></a></li>
+                <li class="nav-item"><a class="header-item-link" href="#"><img class="item-img" src="img/profile.svg" alt="profile" width="24" height="24"></a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <section class="main-section">
-            <h1>Войти</h1>
-            <a>Войти через Google</a>
-            <a>Войти через Vk</a>
-            <p>E-mail</p>
+        <form class="main-section">
+            <h1 class="main-heading">Войти</h1>
+            <a class="main-link" href="#"><img src="img/Google - jpeg.jpg">Войти через Google</img>
+            <a class="main-link" href="#"><img src="img/VK - jpeg.jpg">Войти через Vk</a>
+            <span>E-mail</span>
             <input type="search">
-            <p>Пароль</p>
+            <span>Пароль</span>
             <input type="search">
-            <a>Забыли пароль</a>
+            <a href="#" style="color: #B73C58;">Забыли пароль</a>
             <input type="button" value="Войти">
-            <p>Используя для входа Google, Apple или Email-адрес, 
+            <span>Используя для входа Google, Apple или Email-адрес, 
                 вы соглашаетесь с <a href="#">Условиями использования</a> 
-                и <a href="#">Политикой конфиденциальности.</a></p>
-        </section>
-        <p>Ещё нет аккаунта?<a href="#">Зарегистрироваться</a></p>
+                и <a href="#">Политикой конфиденциальности.</a></span>
+        </form>
+        <span>Ещё нет аккаунта?<a href="#">Зарегистрироваться</a></span>
     </main>
 </body>
 </html>
